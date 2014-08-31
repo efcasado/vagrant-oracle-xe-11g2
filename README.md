@@ -27,5 +27,5 @@ sqlplus sys as sysdba
 and create a new user by typing
 
 ```sql
-CREATE USER <username> IDENTIFIED BY <password>
+CREATE USER <username> IDENTIFIED BY <password>;
 ```

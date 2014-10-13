@@ -28,4 +28,5 @@ and create a new user by typing
 
 ```sql
 CREATE USER <username> IDENTIFIED BY <password>;
+GRANT dba TO <username> WITH ADMIN OPTION;
 ```
